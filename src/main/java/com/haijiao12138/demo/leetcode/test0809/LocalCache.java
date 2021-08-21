@@ -17,14 +17,8 @@ import java.util.concurrent.locks.ReentrantLock;
  * @ClassName: Sort
  * @description: TODO
  * @date: 2021/8/9 20:26
- *
  */
 public class LocalCache {
-
-
-
-
-
 
 
     private static ScheduledExecutorService swapExpiredPool
@@ -44,7 +38,6 @@ public class LocalCache {
     }
 
     public Object set(String key, Object value, long ttl) {
-
 
 
         long expireTime = System.currentTimeMillis() + ttl;
@@ -142,7 +135,6 @@ public class LocalCache {
             }
             return 0;
         }
-
 
 
     }
