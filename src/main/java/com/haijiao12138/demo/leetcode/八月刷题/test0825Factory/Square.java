@@ -1,0 +1,14 @@
+package com.haijiao12138.demo.leetcode.八月刷题.test0825Factory;
+
+/**
+ * @author: haijiao12138
+ * @ClassName: Square
+ * @description: TODO
+ * @date: 2021/8/25 20:54
+ */
+public class Square implements Shape {
+    @Override
+    public void draw() {
+        System.out.println("Inside Square::draw() method");
+    }
+}
