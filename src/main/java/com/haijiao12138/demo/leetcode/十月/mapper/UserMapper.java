@@ -4,6 +4,8 @@ import com.haijiao12138.demo.leetcode.十月.entity.User;
 import io.lettuce.core.dynamic.annotation.Param;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 /**
  * @ClassName UserMapper
  * @Author houyuanbo
@@ -11,8 +13,10 @@ import org.springframework.stereotype.Repository;
  * @Description TODO
  * @Version
  **/
-@Repository
+
 public interface  UserMapper {
 
-    User Sel(@Param("id") int id);
+    User Sel( int id);
+
+    List<User> queryUserInfo();
 }
