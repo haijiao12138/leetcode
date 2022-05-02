@@ -14,7 +14,7 @@ spring :
 
 mybatis:
   mapper-locations: classpath:mapper/*.xml
-  type-aliases-package: com.haijiao12138.demo.leetcode.十月.entity
+  type-aliases-package: com.haijiao12138.demo.leetcode.code2021.十月.entity
 
 pagehelper:
   helperDialect: mysql

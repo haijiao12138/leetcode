@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 
-@MapperScan("com.haijiao12138.demo.leetcode.十月.mapper") //扫描的mapper
+@MapperScan("com.haijiao12138.demo.leetcode.code2021.十月.mapper") //扫描的mapper
 @SpringBootApplication
 //@EnableScheduling//定时任务启动
 public class DemoApplication {
