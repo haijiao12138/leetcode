@@ -8,6 +8,7 @@ import java.io.Serializable;
 
 @Data
 @Document(collection = "test")  //表名
+
 public class MongoTest  implements Serializable {
     @Id
     private String id;//对应芒果数据库中的长id
