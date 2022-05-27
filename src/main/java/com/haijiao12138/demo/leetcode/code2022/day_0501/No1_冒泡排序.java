@@ -1,4 +1,4 @@
-package main.java.com.haijiao12138.demo.leetcode.code2022.day_0501;
+package com.haijiao12138.demo.leetcode.code2022.day_0501;
 
 import java.util.Arrays;
 
